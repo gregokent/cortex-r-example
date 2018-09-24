@@ -9,7 +9,7 @@ MEMORY
   /* Update examples/data_overflow.rs if you change these sizes. */
   FLASH : ORIGIN = 0x00000000, LENGTH = 0x400000
   STACK : ORIGIN = 0x08000000, LENGTH = 0x1500
-  RAM : ORIGIN = 0x08001500, LENGTH = 0x3EB00
+  RAM : ORIGIN = 0x08001500, LENGTH = 0x79F00
   VIMRAM : ORIGIN = 0xFFF82000, LENGTH = 0x4A0
   /* More memory regions can declared: for example this is a second RAM region */
   /* CCRAM : ORIGIN = 0x10000000, LENGTH = 8K */
