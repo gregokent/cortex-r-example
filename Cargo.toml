@@ -1,0 +1,8 @@
+[package]
+name = "cortex-r-example"
+version = "0.1.0"
+authors = ["Gregory Kent <gregokent@gmail.com>"]
+
+[dependencies]
+cortex-r-rt = { path = "../cortex-r-rt" }
+panic-abort = "*"
